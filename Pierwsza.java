@@ -1,4 +1,6 @@
-  public static void main(String[] args) 
+import java.util.Scanner;
+class Pierwsza {
+public static void Pierwsza() 
 { 
   double pep;
     System.out.print( "jaką liczbę chcesz sprawdzić czy jest pierwsza");

@@ -1,7 +1,7 @@
 import java.util.Scanner;
-class Main {
+class dodawanie {
 
-  public static void main(String[] args) 
+  public static void dodawanie() 
 { 
   Scanner myInput = new Scanner( System.in );
   System.out.print( "wpisz pierwszą liczbe " );

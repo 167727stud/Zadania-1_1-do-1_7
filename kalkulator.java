@@ -1,4 +1,6 @@
-public static void main(String[] args) 
+import java.util.Scanner;
+class kalkulator {
+public static void kalkulator() 
 { 
   int pep;
   double lel;

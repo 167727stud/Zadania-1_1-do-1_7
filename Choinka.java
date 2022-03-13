@@ -1,4 +1,5 @@
-public static void main(String[] args) 
+class Choinka {
+public static void Choinka() 
 { 
   int rer = 15;
   int heh = 1;

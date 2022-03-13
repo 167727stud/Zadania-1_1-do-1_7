@@ -1,43 +1,65 @@
 import java.util.Scanner;
 class Main {
+  Scanner myInput = new Scanner( System.in );
   
   public static void main(String[] args) 
-{ 
-  int rer = 15;
-  int heh = 1;
-  for(int pep = 0;pep<15;pep++)
-    {
-      for(int kek = 0;kek<rer;kek++)
-        {
-              System.out.print(".");
-              
-        }
-      for(int lel = 0;lel<heh;lel++)
-        {
-          System.out.print("J");
-        
-        }
-            for(int lel = 0;lel<heh;lel++)
-        {
-          System.out.print("L");
-          
-        }
-            for(int kek = 0;kek<rer;kek++)
-        {
-              System.out.print(".");
-              
-        }
-      rer--;
-      heh++;
+{ System.out.print( "1-Zadanie 1_1");
+  System.out.print(System.lineSeparator());  
+  System.out.print( "2-Zadanie 1_2");
+  System.out.print(System.lineSeparator());
+  System.out.print( "3-Zadanie 1_3");
+  System.out.print(System.lineSeparator());
+  System.out.print( "4-Zadanie 1_4");
+  System.out.print(System.lineSeparator());
+  System.out.print( "5-Zadanie 1_5");
+  System.out.print(System.lineSeparator());
+  System.out.print( "6-Zadanie 1_6");
+  System.out.print(System.lineSeparator());
+  System.out.print( "7-Zadanie 1_7");
+  System.out.print(System.lineSeparator());
+  int mem=2;
+  for(;;){
+  Scanner myInput = new Scanner( System.in );
+  mem = myInput.nextInt();
 
-      System.out.print(System.lineSeparator());
-    }
-      System.out.print("............|||||||............");
-            System.out.print(System.lineSeparator());
-      System.out.print("............|||||||............");
-            System.out.print(System.lineSeparator());
-      System.out.print("............|||||||............");
+ 
+  switch(mem)
+  {
+    case 1:
+    System.out.print( "Hello World");  
+    break;
+      
+    case 2:
+    wypisanie.wypisanie(); 
+    break;
 
+          case 3:
+    dodawanie.dodawanie();
+    break;
+
+          case 4:
+    kalkulator.kalkulator();
+    break;
+
+          case 5:
+    Parzyste.Parzyste();
+    break;
+
+          case 6:
+    Pierwsza.Pierwsza();
+    break;
+
+          case 7:
+    Choinka.Choinka();
+    break;
+                default:
+ 
+  }
   
+  
+System.out.print(System.lineSeparator());
+    System.out.print(System.lineSeparator());
+    System.out.print(System.lineSeparator());
 }}
+}
 
