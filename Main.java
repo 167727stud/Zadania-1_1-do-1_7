@@ -3,33 +3,41 @@ class Main {
   
   public static void main(String[] args) 
 { 
-  double pep;
-    System.out.print( "jaką liczbę chcesz sprawdzić czy jest pierwsza");
-   System.out.print(System.lineSeparator());
-  Scanner myInput = new Scanner( System.in );
-  pep = myInput.nextInt();
-  double lel = Math.sqrt(pep);
-  if(pep<11){
-    for(int kek=2;kek<pep;kek++)//przypadek dla małych liczb
-      {
-        if(pep % kek == 0)
-        {
-          System.out.println("No nie wiem , chyba ta"+
-                             " liczba nie jest pierwsza ");
-        return ;
-        }
-      }
-    System.out.println("Brawo trafiłeś w liczbę pierwszą"); 
-    }
-  else{//przypadek dla dużych liczb
-  for(int kek=2;kek<lel;kek++)
+  int rer = 15;
+  int heh = 1;
+  for(int pep = 0;pep<15;pep++)
     {
-      if ( pep % kek  == 0 )
-      {
-        System.out.println("No nie wiem , chyba ta liczba nie jest pierwsza ");
-        return ;
-      }
-      }
-  System.out.println("Brawo trafiłeś w liczbę pierwszą");
-    }}}
+      for(int kek = 0;kek<rer;kek++)
+        {
+              System.out.print(".");
+              
+        }
+      for(int lel = 0;lel<heh;lel++)
+        {
+          System.out.print("J");
+        
+        }
+            for(int lel = 0;lel<heh;lel++)
+        {
+          System.out.print("L");
+          
+        }
+            for(int kek = 0;kek<rer;kek++)
+        {
+              System.out.print(".");
+              
+        }
+      rer--;
+      heh++;
+
+      System.out.print(System.lineSeparator());
+    }
+      System.out.print("............|||||||............");
+            System.out.print(System.lineSeparator());
+      System.out.print("............|||||||............");
+            System.out.print(System.lineSeparator());
+      System.out.print("............|||||||............");
+
+  
+}}
 
